@@ -7,8 +7,12 @@ from scoreboard import ScoreBoard
 screen = Screen()
 screen.setup(width=600, height=600)
 screen.bgcolor("black")
-screen.title("My Snake Game")
+score_refresh = screen.textinput("My Snake Game", prompt="Refresh score history? yes/no: ")
 screen.tracer(0)
+
+if score_refresh.lower() == "yes":
+    with open("data.txt", "w") as file:
+        file.write("0")
 
 snake = Snake()
 food = Food()
@@ -19,6 +23,7 @@ screen.onkey(snake.up, "Up")
 screen.onkey(snake.down, "Down")
 screen.onkey(snake.left, "Left")
 screen.onkey(snake.right, "Right")
+
 
 game_is_on = True
 while game_is_on:
