@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3840abf8-cf16-4a88-99cb-1c94c9dc4cd2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/day-25.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/day-25.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2018_Central_Park_Squirrel_Census_-_Squirrel_Data_20240719.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/squirrel_count.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -22,16 +23,20 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2jPeZ7CJa8cBNfgLp8ARghhk78a" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "python__learning",
-    "last_opened_file_path": "C:/Users/ni/Downloads/python_learning/day-25"
+    "last_opened_file_path": "C:/Users/WillNi/python_learning/day-25-us-states-game-start"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -42,7 +47,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-5b207ade9991-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17890.14" />
+        <option value="bundled-python-sdk-975db3bf15a3-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18034.82" />
       </set>
     </attachedChunks>
   </component>
@@ -59,5 +64,8 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
