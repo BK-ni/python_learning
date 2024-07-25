@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3840abf8-cf16-4a88-99cb-1c94c9dc4cd2" name="Changes" comment="">
+    <list default="true" id="274dd62f-cb09-4e78-ac4d-88ba98eb71d0" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../day-26/.idea/day-26.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../day-26/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../day-26/.idea/misc.xml" afterDir="false" />
@@ -13,8 +13,8 @@
       <change afterPath="$PROJECT_DIR$/../day-26/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../day-26/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day-25-us-states-game-start/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day-25-us-states-game-start/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-25/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-25/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-25/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day-25/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,31 +24,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0
-}</component>
-  <component name="ProjectId" id="2jPeZ7CJa8cBNfgLp8ARghhk78a" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2jijqG3BXMxTnwXDXxVtuw33TIE" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;python__learning&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ni/Downloads/python_learning/day-25&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "python__learning",
+    "last_opened_file_path": "C:/Users/ni/Downloads/python_learning/NATO-alphabet-start"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\WillNi\python_learning\day-25" />
-    </key>
-  </component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -59,18 +50,15 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3840abf8-cf16-4a88-99cb-1c94c9dc4cd2" name="Changes" comment="" />
-      <created>1721293191439</created>
+      <changelist id="274dd62f-cb09-4e78-ac4d-88ba98eb71d0" name="Changes" comment="" />
+      <created>1721876980631</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1721293191439</updated>
+      <updated>1721876980631</updated>
     </task>
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
