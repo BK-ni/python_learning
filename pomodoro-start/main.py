@@ -9,8 +9,9 @@ FONT_NAME = "Courier"
 WORK_MIN = 25
 SHORT_BREAK_MIN = 5
 LONG_BREAK_MIN = 20
-reps = 1
+reps = 0
 timer = None
+mark = []
 # ---------------------------- TIMER RESET ------------------------------- # 
 
 
@@ -18,35 +19,40 @@ def time_reset():
     global reps, timer
     if timer:
         window.after_cancel(timer)
-    reps = 1
+    reps = 0
     canvas.itemconfig(timer_text, text="00:00")
+    label_timer.config(text="Timer", fg=GREEN)
+    label_checkmark.config(text='')
 
 # ---------------------------- TIMER MECHANISM ------------------------------- # 
 
 
 def start_timer():
     global reps
-    print(reps)
+    reps += 1
+    work_sec = WORK_MIN * 60
+
     if reps % 2 == 1:
-        count_down(10)
-        reps += 1
-        print(f"{reps}2")
+        count_down(work_sec)
+        label_timer.config(text="Work", fg=GREEN)
     else:
         rest()
 
 
+
 def rest():
     global reps
+    short_break_sec = SHORT_BREAK_MIN * 60
+    long_break_sec = LONG_BREAK_MIN * 60
     if reps % 8 != 0:
-        count_down(5)
-        reps += 1
+        label_timer.config(text="Break", fg=PINK)
+        count_down(short_break_sec)
     elif reps % 8 == 0:
-        count_down(8)
-        reps += 1
+        count_down(long_break_sec)
+        label_timer.config(text="Break", fg=RED)
 
 
 def count_down(count):
-    global timer
     count_min = math.floor(count / 60)
     count_sec = count % 60
 
@@ -57,16 +63,15 @@ def count_down(count):
 
     canvas.itemconfig(timer_text, text=f"{count_min}:{count_sec}")
     if count > 0:
+        global timer
         timer = window.after(1000, count_down, count - 1)
     else:
-        start_next_timer()
-
-
-def start_next_timer():
-    if reps % 2 == 0:
-        rest()
-    else:
         start_timer()
+        if reps % 2 == 0:
+            mark.append("✔")
+        mark_out = ''.join(mark)
+        label_checkmark.config(text=mark_out)
+
 # ---------------------------- COUNTDOWN MECHANISM ------------------------------- # 
 
 # ---------------------------- UI SETUP ------------------------------- #
@@ -87,7 +92,7 @@ canvas.grid(column=1, row=1)
 label_timer = Label(text="Timer", font=(FONT_NAME, 50), bg=YELLOW, fg=GREEN)
 label_timer.grid(column=1, row=0)
 
-label_checkmark = Label(text="✔", fg=GREEN, bg=YELLOW)
+label_checkmark = Label(fg=GREEN, bg=YELLOW)
 label_checkmark.grid(column=1, row=3)
 
 
