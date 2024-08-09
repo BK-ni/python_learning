@@ -36,6 +36,8 @@ for a in articles:
     data["日期"] = date
     data_list.append(data)
 
+df = pd.DataFrame(data_list)
+df.to_excel('ptt_baseball.xlsx', index=False, engine="openpyxl")
 
 # !將資料儲存成json檔
 
