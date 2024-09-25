@@ -39,7 +39,6 @@ def start_timer():
         rest()
 
 
-
 def rest():
     global reps
     short_break_sec = SHORT_BREAK_MIN * 60
@@ -102,3 +101,5 @@ start.grid(column=0, row=2)
 reset = Button(text="reset", command=time_reset)
 reset.grid(column=2, row=2)
 window.mainloop()
+
+# bug: start 可以重複按，導致timer錯亂
